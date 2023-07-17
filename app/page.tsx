@@ -10,7 +10,6 @@ export default function Home() {
   useEffect(()=>{
     dispatch(fetchUsers())
   },[])
-  console.log(entities);
   
   return (
     <div>
